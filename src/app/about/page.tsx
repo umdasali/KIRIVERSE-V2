@@ -7,7 +7,7 @@ const schemaData = {
   name: "About KiriVerse",
   url: "https://www.kiriverse.com/about",
   description:
-    "KiriVerse is an anime and gaming news platform covering stories, reviews, features, and fan culture.",
+    "KiriVerse is an anime and gaming and technology news platform covering stories, reviews, features, and fan culture.",
   publisher: {
     "@type": "NewsMediaOrganization",
     name: "KiriVerse Media",
