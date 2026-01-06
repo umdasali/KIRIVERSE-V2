@@ -1,0 +1,35 @@
+# robots.txt for https://www.kiriverse.com
+# Last updated: 2025-09-14
+
+# 1. Default rule – allow all well-behaved crawlers to access public pages
+User-agent: *
+Allow: /
+
+# 2. Block private or duplicate areas that should not be indexed
+Disallow: /admin/
+Disallow: /api/
+Disallow: /login
+Disallow: /register
+Disallow: /drafts/
+Disallow: /tmp/
+
+# 3. Explicitly allow assets under /static/ or /_next/ (important for Next.js)
+Allow: /static/
+Allow: /_next/
+
+# 4. Allow Google and AdSense crawlers
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# 5. Sitemap location
+Sitemap: https://www.kiriverse.com/sitemap.xml
+
+# 6. Optional: Crawl delay for very aggressive bots (Google ignores this)
+# User-agent: AhrefsBot
+# Crawl-delay: 10
