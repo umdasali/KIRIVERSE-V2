@@ -13,7 +13,7 @@ function FeaturedCard({ data }: { data: Article }) {
                 </div>
                 <div className="featured-content">
                     <span className="category-badge">{data?.category}</span>
-                    <h2 style={{ color: "#fff" }}>{data?.title}</h2>
+                    <h1 style={{ color: "#fff" }}>{data?.title}</h1>
                     <p>{truncate(data?.desc, 200)}</p>
                     <div className="article-footer">
                         <span>{readingTime(data?.desc)} min read</span>

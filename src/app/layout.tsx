@@ -81,10 +81,6 @@ export const metadata: Metadata = {
     "application-name": "KiriVerse",
     "apple-mobile-web-app-status-bar-style": "default",
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
 };
 
 export default function RootLayout({
