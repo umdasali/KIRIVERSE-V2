@@ -118,6 +118,7 @@ export default function RootLayout({
           name="googlebot"
           content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
+        <meta name="google-adsense-account" content="ca-pub-1317494719665209" />
 
         {/* Verification */}
         <meta name="msvalidate.01" content="FDB30E06DE1EEC231EE5C1A071AAF3C2" />
