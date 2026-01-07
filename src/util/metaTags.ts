@@ -28,7 +28,7 @@ export const categoryConfig: Record<
       "KiriVerse is your go-to hub for anime & manga news, gaming updates, tech trends, reviews, and entertainment culture from around the world.",
     intro:
       "KiriVerse is your go-to hub for anime & manga news, gaming updates, tech trends, reviews, and entertainment culture from around the world.",
-    image: "/og-images/Article.webp",
+    image: "/og-images/Articles.webp",
     canonical: "https://www.kiriverse.com",
   },
 
