@@ -124,6 +124,12 @@ export default function RootLayout({
         <meta name="msvalidate.01" content="FDB30E06DE1EEC231EE5C1A071AAF3C2" />
         <meta name="yandex-verification" content="592c3a6dab54dd68" />
 
+        {/* google Ads */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1317494719665209"
+          crossOrigin="anonymous"
+        />
         {/* Google Analytics */}
         <Script
           async
