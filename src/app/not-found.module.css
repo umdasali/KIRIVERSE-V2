@@ -1,0 +1,155 @@
+/* app/not-found.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  text-align: center;
+  /* Selection color matching your primary brand */
+  ::selection {
+    background-color: var(--primary);
+    color: var(--primary-foreground);
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 600px;
+}
+
+/* Icon Circle Styling */
+.iconCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--card); /* Using card color for subtle depth */
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.iconMain {
+  color: var(--primary);
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Typography */
+.errorCode {
+  font-size: 6rem;
+  font-weight: 800;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: -0.05em;
+  color: var(--foreground);
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--foreground);
+}
+
+.description {
+  color: var(--muted-foreground);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Button Container */
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Shared Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.75rem; /* ~44px */
+  padding: 0 2rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border-radius: var(--radius);
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+  gap: 0.5rem;
+}
+
+/* Primary Button (Home) */
+.btnPrimary {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btnPrimary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(230, 76, 112, 0.25); /* Glow using your primary color */
+}
+
+/* Secondary Button (Back) */
+.btnSecondary {
+  background-color: transparent;
+  border-color: var(--input);
+  color: var(--foreground);
+}
+
+.btnSecondary:hover {
+  background-color: var(--secondary);
+  color: var(--secondary-foreground);
+}
+
+/* Footer Copyright */
+.footer {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+}
+
+/* Icon transition inside buttons */
+.btn svg {
+  transition: transform 0.2s ease;
+}
+
+.btn:hover svg {
+  transform: translateY(-1px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .errorCode {
+    font-size: 4rem;
+  }
+  
+  .actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

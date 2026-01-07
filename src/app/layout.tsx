@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     title: "KiriVerse | Anime, Gaming, Technology & Entertainment Culture",
     description:
       "KiriVerse is your go-to hub for anime & manga news, gaming updates, tech trends, reviews, and entertainment culture from around the world.",
-    images: [`${siteUrl}/og-images/home.jpg`],
+    images: [`${siteUrl}/og-images/Home.webp`],
   },
   alternates: {
     canonical: siteUrl,

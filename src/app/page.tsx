@@ -148,7 +148,7 @@ export const metadata: Metadata = {
     siteName: "KiriVerse",
     images: [
       {
-        url: "https://www.kiriverse.com/og-images/home.jpg",
+        url: "https://www.kiriverse.com/og-images/Home.webp",
         width: 1200,
         height: 630,
         alt: "KiriVerse",

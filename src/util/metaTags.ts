@@ -28,7 +28,7 @@ export const categoryConfig: Record<
       "KiriVerse is your go-to hub for anime & manga news, gaming updates, tech trends, reviews, and entertainment culture from around the world.",
     intro:
       "KiriVerse is your go-to hub for anime & manga news, gaming updates, tech trends, reviews, and entertainment culture from around the world.",
-    image: "/og/anime.jpg",
+    image: "/og-images/Article.webp",
     canonical: "https://www.kiriverse.com",
   },
 
@@ -43,7 +43,7 @@ export const categoryConfig: Record<
       "Stay updated with anime and manga news, reviews, and fandom culture.",
     intro:
       "Dive into the world of anime and manga with KiriVerse. From breaking anime news and manga updates to episode guides, reviews, release schedules, and otaku culture, we bring you everything fans need to stay ahead.",
-    image: "/og/anime.jpg",
+    image: "/og-images/Anime.webp",
     canonical: "https://www.kiriverse.com",
   },
 
@@ -57,7 +57,7 @@ export const categoryConfig: Record<
     ogDescription: "Latest gaming updates, game reviews, and platform news.",
     intro:
       "Stay updated with the latest gaming news, reviews, and guides across PC, console, and mobile platforms. KiriVerse covers new releases, industry updates, walkthroughs, and gaming culture.",
-    image: "/og/gaming.jpg",
+    image: "/og-images/Games.webp",
     canonical: "https://www.kiriverse.com",
   },
 
@@ -72,7 +72,7 @@ export const categoryConfig: Record<
       "Latest tech updates, AI trends, and innovations shaping the digital world.",
     intro:
       "Explore the latest in technology with news on gadgets, AI, apps, gaming tech, and digital trends. KiriVerse makes complex tech topics simple and accessible.",
-    image: "/og/technology.jpg",
+    image: "/og-images/Technology.webp",
     canonical: "https://www.kiriverse.com",
   },
 
@@ -87,7 +87,7 @@ export const categoryConfig: Record<
       "Movies, series, fandoms, and entertainment culture updates.",
     intro:
       "Discover entertainment news covering movies, TV series, streaming platforms, pop culture, conventions, and fandom trends — all curated by KiriVerse.",
-    image: "/og/entertainment.jpg",
+    image: "/og-images/Entertainment.webp",
     canonical: "https://www.kiriverse.com",
   },
 
