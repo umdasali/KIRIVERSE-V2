@@ -42,7 +42,7 @@ async function getArticles(page = 1, title: string): Promise<ArticlesResponse> {
   const contentType =
     title === "Entertainments"
       ? `&fields.category[in]=${encodeURIComponent(
-          "Pop Culture,Entertainments"
+          "Pop Culture,Entertainment"
         )}`
       : `&fields.category=${encodeURIComponent(title)}`;
 
