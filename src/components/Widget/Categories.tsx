@@ -1,4 +1,3 @@
-'use client'
 import InstagramEmbed from '../embed/InstagramEmbed'
 
 function Categories({ insta_feed_id }: { insta_feed_id: string }) {
